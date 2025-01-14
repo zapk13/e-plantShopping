@@ -8692,6 +8692,9 @@ const Nf = vh({
                 n(Th(a))
             },
             s = a => Number(a.cost.substring(1)) * a.quantity;
+            a = f => {
+                alert("Functionality to be added for future reference")
+            },
         return x.jsxs("div", {
             className: "cart-container",
             children: [x.jsxs("h2", {
@@ -8757,6 +8760,7 @@ const Nf = vh({
                     children: "Continue Shopping"
                 }), x.jsx("br", {}), x.jsx("button", {
                     className: "get-started-button1",
+                    onClick: f => a(),
                     children: "Checkout"
                 })]
             })]
