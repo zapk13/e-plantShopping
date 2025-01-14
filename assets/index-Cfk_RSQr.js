@@ -8691,10 +8691,10 @@ const Nf = vh({
             u = a => {
                 n(Th(a))
             },
-            s = a => Number(a.cost.substring(1)) * a.quantity;
+            s = a => Number(a.cost.substring(1)) * a.quantity,
             a = f => {
                 alert("Functionality to be added for future reference")
-            },
+            };
         return x.jsxs("div", {
             className: "cart-container",
             children: [x.jsxs("h2", {
